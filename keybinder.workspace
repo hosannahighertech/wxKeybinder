@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="keybinder" Database="" Version="10.0.0">
+  <Project Name="keybinder" Path="keybinder.project" Active="No"/>
+  <Project Name="sample" Path="sample/sample.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="keybinder" ConfigName="Build-CMake"/>
+      <Project Name="minimal" ConfigName="Build-CMake"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="keybinder" ConfigName="DLL Unicode Release Monolithic_Win32"/>
+      <Project Name="keybinder" ConfigName="DLL Unicode Release Multilib_Win32"/>
+      <Project Name="keybinder" ConfigName="DLL ANSI Release Monolithic_Win32"/>
+      <Project Name="keybinder" ConfigName="DLL ANSI Release Multilib_Win32"/>
+      <Project Name="keybinder" ConfigName="Static Unicode Release Monolithic_Win32"/>
+      <Project Name="keybinder" ConfigName="Static Unicode Release Multilib_Win32"/>
+      <Project Name="keybinder" ConfigName="Static ANSI Release Monolithic_Win32"/>
+      <Project Name="keybinder" ConfigName="Static ANSI Release Multilib_Win32"/>
+      <Project Name="minimal" ConfigName="DLL Unicode Release Multilib_Win32"/>
+      <Project Name="minimal" ConfigName="DLL ANSI Release Monolithic_Win32"/>
+      <Project Name="minimal" ConfigName="DLL ANSI Release Multilib_Win32"/>
+      <Project Name="minimal" ConfigName="Static Unicode Release Monolithic_Win32"/>
+      <Project Name="minimal" ConfigName="Static Unicode Release Multilib_Win32"/>
+      <Project Name="minimal" ConfigName="Static ANSI Release Monolithic_Win32"/>
+      <Project Name="minimal" ConfigName="Static ANSI Release Multilib_Win32"/>
+      <Project Name="minimal" ConfigName="Build-CMake"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
